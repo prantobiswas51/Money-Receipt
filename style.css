@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+
+body {
+    height: 842px;
+    width: 595px;
+    /* to centre page on screen*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pynm {
+    background-color: yellowgreen;
+    width: fit-content;
+}
+
+.payrept {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.tablehead {
+    font-weight: 600;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+thead {
+    background-color: bisque;
+    color: #ac2c2c;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+.graphic-container {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.color {
+    background-color: rgb(2, 73, 50);
+    min-width: 60px;
+    height: 35px;
+    margin: 10px;
+    border-radius: 15px 0px 15px 0px;
+}
+
+.colorg1 {
+    background-color: rgb(2, 73, 50);
+    min-width: 200px;
+    height: 35px;
+    margin: 10px;
+    border-radius: 15px 0px 15px 0px;
+}
+
+
+body {
+    margin-top: 20px;
+}
+
+.spacer {
+    height: 50px;
+}
+
+.hallTitle {
+    padding: 10px;
+    text-align: center;
+
+}
+
+.customerInfo,
+.ticket-info {
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.stablished {
+    text-align: center;
+}
+
+td {
+    padding: 10px;
+    min-width: 250px;
+    background-color: #f2f2f2;
+}
